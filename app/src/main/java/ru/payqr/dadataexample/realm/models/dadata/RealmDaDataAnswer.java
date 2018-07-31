@@ -26,7 +26,7 @@ package ru.payqr.dadataexample.realm.models.dadata;
 
 import com.google.gson.annotations.SerializedName;
 
-import io.realm.RealmObject;
+import io.realm.*;
 import io.realm.annotations.PrimaryKey;
 
 /**

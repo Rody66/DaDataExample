@@ -38,11 +38,13 @@ public class DaDataApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        RealmConfiguration config = new RealmConfiguration.Builder(this)
-                .setModules(new QueryRealmModule())
+        Realm.init(this);
+        RealmConfiguration config = new RealmConfiguration.Builder()
+                .modules(new QueryRealmModule())
                 .name("queries.realm")
                 .deleteRealmIfMigrationNeeded()
                 .build();
+
         Realm.setDefaultConfiguration(config);
     }
 }

@@ -177,15 +177,15 @@ public class ServerUtils {
                 realm.commitTransaction();
             }
 
-            realm.beginTransaction();
-
-            Query query = realm.createObject(Query.class);
-
-            query.setId(UUID.randomUUID().toString());
-            query.setQuery(queryFromUser);
-            query.setResult(resultsRealm);
-
-            realm.commitTransaction();
+//            realm.beginTransaction();
+//
+//            Query query = realm.createObject(Query.class);
+//
+//            query.setId(UUID.randomUUID().toString());
+//            query.setQuery(queryFromUser);
+//            query.setResult(resultsRealm);
+//
+//            realm.commitTransaction();
         }
     }
 
