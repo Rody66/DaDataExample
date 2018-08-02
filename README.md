@@ -1,6 +1,6 @@
 # README #
 
-Created and built under Android Studio 1.3.2.
+Created and built under Android Studio 3.1.0.
 
 ### What is this repository for? ###
 
@@ -10,3 +10,7 @@ Created and built under Android Studio 1.3.2.
 ### How do I get set up? ###
 
 * Insert your API key in the app's `build.gradle` file.
+
+### 2018
+
+Rody66: Fixed for work in 2018
