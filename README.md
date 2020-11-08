@@ -13,4 +13,4 @@ Created and built under Android Studio 3.1.0.
 
 ### 2018
 
-Rody66: Fixed for work in 2018
+Fixed for work in 2018
